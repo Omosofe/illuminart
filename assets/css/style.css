@@ -72,6 +72,7 @@ body:after {
 .text-section {
   background: white;
   padding: 50px;
+  padding-bottom: 100px;
 }
 
 .text-section h3 {
@@ -112,11 +113,11 @@ body:after {
   word-spacing: 1px;
   text-shadow: none;
   text-rendering: optimizeLegibility;
-  font-size: 1.45rem;
+  font-size: 1.5rem;
 }
 
 #our-team .row {
-  margin-top: 40px;
+  margin-top: 40px
 }
 
 #work h3 {
@@ -150,4 +151,16 @@ body:after {
   font-weight: 600;
   margin-bottom: 40px;
   font-family: 'Montserrat', sans-serif;
+}
+
+#clients img {
+  width: 100%;
+}
+
+#clients .row {
+  padding: 20px 50px;
+}
+
+#clients .row:last-child {
+  margin-top: 50px;
 }
