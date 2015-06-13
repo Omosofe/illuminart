@@ -162,5 +162,57 @@ body:after {
 }
 
 #clients .row:last-child {
-  margin-top: 50px;
+  margin-top: 25px;
+}
+
+#contact form {
+  padding: 25px;
+}
+
+#contact form label {
+  font-size: 1.65rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact form input, #contact form textarea {
+  border: 1px solid #888;
+  border-radius: 2px;
+  outline: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover {
+  border: none;
+  outline:0px !important;
+  -webkit-appearance:none;
+}
+
+#contact form button {
+  border: none;
+  background: #77b915;
+  border-radius: 2px;
+  color: white;
+  font-weight: 300;
+}
+
+#footer {
+  background: rgba(0,0,0,0.8);
+  padding: 25px;
+}
+
+#footer h4 {
+  color: white;
+  font-size: 1.65rem;
+  font-family: 'Montserrat', sans-serif;
 }
