@@ -37,19 +37,21 @@ body:after {
 }
 
 .navbar a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.35rem;
+  word-spacing: 1px;
   font-weight: 400;
-  font-size: 1.5rem;
   color: white !important;
 }
 
 .navbar a:hover {
-  color: #ffa921 !important;
+  color: #77b915 !important;
 }
 
 .intro {
-  padding: 75px;
+  padding: 75px 100px;
   margin-top: 65px;
-  margin-bottom: 100px;
+  margin-bottom: 135px;
   color: white;
 }
 
@@ -61,7 +63,7 @@ body:after {
 
 .intro p {
   margin-top: 25px;
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-family: 'Lato', sans-serif;
   line-height: 3.5rem !important;
   font-weight: 300;
@@ -69,11 +71,12 @@ body:after {
 
 .text-section {
   background: white;
-  padding: 50px 50px 100px 50px;
+  padding: 50px;
 }
 
 .text-section h3 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 #about p {
@@ -85,4 +88,33 @@ body:after {
   word-spacing: 1px;
   text-shadow: none;
   text-rendering: optimizeLegibility;
+}
+
+#things-recently {
+  padding-top: 45px;
+  padding-bottom: 75px;
+}
+
+#things-recently h3 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin: 30px 0px;
+}
+
+#our-team h4 {
+  font-size: 2.15rem;
+  font-weight: 600;
+}
+
+#our-team p {
+  color: #333;
+  word-spacing: 1px;
+  text-shadow: none;
+  text-rendering: optimizeLegibility;
+  font-size: 1.45rem;
+}
+
+#our-team .row {
+  margin-top: 40px;
 }
