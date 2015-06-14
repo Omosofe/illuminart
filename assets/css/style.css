@@ -251,15 +251,23 @@ address > strong {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   z-index: 100;
   text-decoration: none;
   display: none;
-  color: #ffffff;
+  color: #fff;
+  font-size: 2.65rem;
+  text-align: center;
   background-color: #6dbd63;
 }
 
-.back-to-top i {
-  font-size: 60px;
+.back-to-top:hover {
+  background-color: #51a746;
+  color: #fff;
+}
+
+.icon-phone, .icon-mail-alt {
+  margin-right: 10px;
+  color: #666;
 }
