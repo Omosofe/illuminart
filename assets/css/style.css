@@ -52,24 +52,24 @@ body:after {
   color: #6dbd63 !important;
 }
 
-.intro {
+#intro {
   padding: 75px 25px;
   margin-top: 65px;
   margin-bottom: 135px;
   color: white;
 }
 
-.intro h1 {
+#intro h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 4.5rem;
 }
 
-.intro h1 > span {
+#intro h1 > span {
   color: #6dbd63;
 }
 
-.intro p {
+#intro p {
   margin-top: 25px;
   font-size: 1.9rem;
   font-family: 'Lato', sans-serif;
@@ -219,7 +219,7 @@ button:active {
 }
 
 #footer {
-  background: rgba(0,0,0,0.8);
+  background: rgb(0,0,0);
   padding: 25px;
 }
 
@@ -243,4 +243,23 @@ address > strong {
 
 #map-canvas {
   height: 350px;
+}
+
+.back-to-top {
+  background: none;
+  margin: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  text-decoration: none;
+  display: none;
+  color: #ffffff;
+  background-color: #6dbd63;
+}
+
+.back-to-top i {
+  font-size: 60px;
 }
