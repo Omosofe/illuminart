@@ -7,7 +7,7 @@ $(document).ready(function(){
     delay: 3500,
     timer: false,
     shuffle: true,
-    transition: ['fade', 'zoomOut', 'slideLeft', 'fade2'],
+    transition: ['fade', 'zoomOut', 'fade2'],
     slides: [
         { src: 'assets/img/background-2.jpg' },
         { src: 'assets/img/background-3.jpg' },
