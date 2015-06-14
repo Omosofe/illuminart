@@ -262,7 +262,9 @@ address > strong {
   background-color: #6dbd63;
 }
 
-.back-to-top:hover {
+.back-to-top:hover, 
+.back-to-top:focus, 
+.back-to-top:active {
   background-color: #51a746;
   color: #fff;
 }
