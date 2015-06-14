@@ -45,7 +45,7 @@ body:after {
 }
 
 .navbar a:hover {
-  color: #77b915 !important;
+  color: #6dbd63 !important;
 }
 
 .intro {
@@ -166,7 +166,8 @@ body:after {
 }
 
 #contact form {
-  padding: 25px;
+  padding: 20px 5px;
+  padding-right: 20px;
 }
 
 #contact form label {
@@ -176,7 +177,7 @@ body:after {
 }
 
 #contact form input, #contact form textarea {
-  border: 1px solid #888;
+  border: 1px solid #ccc;
   border-radius: 2px;
   outline: none;
   -webkit-box-shadow: none !important;
@@ -189,18 +190,21 @@ input:hover,
 textarea:active, 
 input:active, 
 textarea:focus, 
-input:focus,
-button:focus,
-button:active,
-button:hover {
-  border: none;
+input:focus {
+  border: 1px solid #6dbd63 !important;
   outline:0px !important;
   -webkit-appearance:none;
 }
 
+button:hover, 
+button:focus,
+button:active {
+  background: #51a746 !important;
+}
+
 #contact form button {
   border: none;
-  background: #77b915;
+  background: #6dbd63;
   border-radius: 2px;
   color: white;
   font-weight: 300;
@@ -215,4 +219,16 @@ button:hover {
   color: white;
   font-size: 1.65rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+address {
+  font-weight: 300;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 1.85rem;
+}
+
+address > strong {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25rem;
 }
