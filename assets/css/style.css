@@ -19,7 +19,6 @@ body:after {
 }
 
 .navbar-brand {
-  font-family: 'Montserrat', sans-serif;
   padding: 0;
 }
 
@@ -33,15 +32,15 @@ body:after {
   display: inline-block;
   float: left;
   margin: 15px 10px;
-  padding: 0 !important;  
+  padding: 0 !important;
+  font-weight: 300;
 }
 
 .navbar-brand h3 > span {
-  color: #6dbd63;
+  font-weight: 600;
 }
 
 .navbar a {
-  font-family: 'Montserrat', sans-serif;
   font-size: 1.35rem;
   word-spacing: 1px;
   font-weight: 400;
@@ -54,19 +53,18 @@ body:after {
 
 #intro {
   padding: 75px 25px;
-  margin-top: 65px;
-  margin-bottom: 135px;
+  margin-top: 85px;
+  margin-bottom: 150px;
   color: white;
 }
 
 #intro h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
+  font-weight: 300;
   font-size: 4.5rem;
 }
 
 #intro h1 > span {
-  color: #6dbd63;
+  font-weight: 600;
 }
 
 #intro p {
@@ -80,12 +78,14 @@ body:after {
 .text-section {
   background: white;
   padding: 50px;
-  padding-bottom: 100px;
 }
 
 .text-section h3 {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+}
+
+#about {
+  padding-top: 75px;
 }
 
 #about p {
@@ -106,9 +106,12 @@ body:after {
 
 .graphic-section h3 {
   color: white;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   margin: 30px;
+}
+
+#our-team {
+  padding-bottom: 125px;
 }
 
 #our-team h4 {
@@ -125,7 +128,11 @@ body:after {
 }
 
 #our-team .row {
-  margin-top: 40px
+  margin-top: 40px;
+}
+
+#work {
+  padding-bottom: 75px;
 }
 
 #work h3 {
@@ -137,12 +144,12 @@ body:after {
 }
 
 #services img {
-  width: 100%;
-  height: 120px;
+  width: 85%;
   text-align: center;
 }
 
 #services h4 {
+  font-size: 1.5rem;
   color: white;
   text-align: center;
   font-weight: 600;
@@ -158,7 +165,6 @@ body:after {
   font-size: 2.15rem;
   font-weight: 600;
   margin-bottom: 40px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 #clients img {
@@ -193,18 +199,18 @@ body:after {
   box-shadow: none !important;
 }
 
-textarea:hover, 
-input:hover, 
-textarea:active, 
-input:active, 
-textarea:focus, 
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
 input:focus {
   border: 1px solid #6dbd63 !important;
   outline:0px !important;
   -webkit-appearance:none;
 }
 
-button:hover, 
+button:hover,
 button:focus,
 button:active {
   background: #51a746 !important;
@@ -226,7 +232,6 @@ button:active {
 #footer h4 {
   color: white;
   font-size: 1.65rem;
-  font-family: 'Montserrat', sans-serif;
 }
 
 address {
@@ -237,7 +242,6 @@ address {
 }
 
 address > strong {
-  font-family: 'Montserrat', sans-serif;
   font-size: 2.25rem;
 }
 
@@ -262,8 +266,8 @@ address > strong {
   background-color: #6dbd63;
 }
 
-.back-to-top:hover, 
-.back-to-top:focus, 
+.back-to-top:hover,
+.back-to-top:focus,
 .back-to-top:active {
   background-color: #51a746;
   color: #fff;
